@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    transition: 0.3s ease-in-out;
+}
+
+/* Modo Escuro */
+body.dark-mode {
+    background: #111;
+    color: #fff;
+}
+
+header {
+    background: #6A0DFF;
+    color: white;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+.hero, .content, .projects {
+    padding: 40px;
+    text-align: center;
+}
+
+.projects ul {
+    margin-top: 20px;
+}
+
+button {
+    background: white;
+    color: #6A0DFF;
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
